@@ -1,0 +1,168 @@
+/* 
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+ */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+/* Homework 1-part start */
+.cars{
+    padding: 171px 260px 130px;
+}
+.cars-list{
+    display: flex;
+    list-style: none;
+}
+.item{
+    width: 307px;
+    height: 500px;
+    padding: 48px;
+    border-radius: 8px;
+}
+.cars-1{
+    background-color: #e28625;
+}
+.cars-2{
+    background-color: #006971;
+}
+.cars-3{
+    background-color:  #004140;
+}
+/* inner thing style start */
+.cars-img{
+    margin-bottom: 35px;
+}
+.cars-title{
+    font-family: Big Shoulders Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    margin-bottom: 25px;
+}
+.cars-text{
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin-bottom: 83px;
+}
+.btn{
+    padding: 12px 32px;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    border:none;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    line-height: 25px;
+}
+.btn:hover{
+    outline:2px solid #fff;
+    color: #fff;
+    transition: all 0.8s ease;
+}
+.btn:focus {
+    outline:2px solid #fff;
+    color: #fff;
+}
+.btn-1{
+    color: #e28625;
+}
+.btn-1:hover{
+    background-color:#e28625;
+}
+.btn-1:focus{
+    background-color: #e28625;
+}
+.btn-2{
+    color:#006971;
+}
+.btn-2:hover{
+    background-color:#006971;
+}
+.btn-2:focus{
+    background-color:#006971;
+}
+.btn-3{
+    color: #004140;
+}
+.btn-3:hover{
+    background-color: #004140;
+}
+.btn-3:focus{
+    background-color:#004140;
+}
+/* inner thing style finish */
+/* Homework 1-part finish */
+
+/* Homework 2-part start */
+.task-sect{
+    background-image: url('https://assets.htmlacademy.ru/img/icons/bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tasks-div{
+    padding: 5px 300px;
+}
+.tasks{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 42px;
+}
+.tasks-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tasks-item{
+    width: 847px;
+    display: flex;
+    background-color: #2e2c9c;
+    padding: 30px 45px;
+    margin-bottom: 15px;
+    color: #fff;
+    flex-direction: row;
+}
+.item-title{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.tasks-item::before{
+    content: '';
+    /* width: 88px; */
+    height: 88px;
+    margin-right: 30px;
+    background-repeat: no-repeat;
+}
+.item-1::before{
+    background-image: url('https://assets.htmlacademy.ru/img/tutors/ruler-icon.svg');
+    width: 161px;
+}
+.item-2::before{
+    background-image: url('https://assets.htmlacademy.ru/img/tutors/consulting-icon.svg');
+    width: 115px;
+}
+.item-3::before{
+    background-image: url('https://assets.htmlacademy.ru/img/tutors/bottle-icon.svg');
+    width: 171px;
+}
+/* Homework 2-part finish */
